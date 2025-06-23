@@ -13,7 +13,7 @@ Proyek ini adalah implementasi **ETL (Extract, Transform, Load) Pipeline** seder
   - PostgreSQL (tabel `fashion_products`)
   - Google Spreadsheet (opsional)
 - ✅ Unit testing lengkap (pytest)
-- ✅ Coverage testing ≥ 95%
+- ✅ Coverage testing ≥ 99%
 
 ---
 
