@@ -1,0 +1,25 @@
+# Cara Menjalankan Proyek ETL Pipeline Sederhana
+
+## 1. Aktifkan Virtual Environment
+
+# Windows
+.venv\Scripts\activate
+
+# macOS / Linux
+source .venv/bin/activate
+
+## 2. Install Semua Dependensi
+pip install -r requirements.txt
+
+## 3. Jalankan Proses ETL
+python main.py
+
+## 4. Jalankan Seluruh Unit Test
+pytest tests/
+
+## 5. Jalankan Coverage Testing
+coverage run -m pytest tests
+coverage report -m
+
+## Url Google Sheets:
+https://docs.google..com/sheets
